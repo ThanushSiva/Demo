@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://vercel.app/",
+    origin: "https://demo-lemon-pi.vercel.app/",
     credentials: true, //access-control-allow-credentials:true
     optionSuccessStatus: 200,
   })
