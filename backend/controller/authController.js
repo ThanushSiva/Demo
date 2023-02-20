@@ -22,7 +22,7 @@ exports.loginUser = async (req, res) => {
     res.cookie("token", token, {
       expire: "1d",
       httpOnly: true,
-      sameSite: "none",
+      sameSite: "Lax",
     });
 
     res.status(200).json({ message: "login success" });
