@@ -5,7 +5,7 @@ function App() {
   async function submitHandler(e) {
     e.preventDefault();
     try {
-      const res = await axios.post("https://demo-16qu.vercel.app/login", {
+      const res = await axios.post("https://demo-tbzo.vercel.app/login", {
         email: "thanush@gmail.com",
       }, {
         withCredentials: true
